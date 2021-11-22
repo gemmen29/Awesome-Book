@@ -1,29 +1,25 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Module 1 Capstone Project
+# Awesome Books
 
-> This is the first module capstone project in microverse.
+> Basic website for add and remove books.
 
 ![screenshot](./app_screenshot.png)
 
 ## Built With
 
 - HTML
-- CSS
 - Javascript
-- Bootstrap 5
+- Linters
 
 ## Live Demo
 
-[Live Demo Link](https://gemmen29.github.io/Module1-Capstone/)
-
-## Loom Video
-
-[Loom video](https://www.loom.com/share/97981bda426b4c4ea21c2e62a1b4113e?sharedAppSource=personal_library)
+[Live Demo Link](https://gemmen29.github.io/Awesome-Book/)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
 - Click on the top right green "code" button.
 - On the dropdown menu, choose "download with zip" button.
 - After download, extract the zip file and you have the project running on your machine.
@@ -36,6 +32,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@George_Magdy](https://twitter.com/georgtriple1)
 - LinkedIn: [@George_Magdy](https://www.linkedin.com/in/george-magdy-840/)
 
+**Chris Clothier**
+GitHub: [@CRClothier](https://github.com/crclothier)  
+LinkedIn: [Chris Clothier](https://www.linkedin.com/in/crclothier/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -47,9 +47,6 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Inspired by Cindy chen design [Behance](https://www.behance.net/adagio07) 
-- The design link [Designlink](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
