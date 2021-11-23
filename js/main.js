@@ -45,12 +45,21 @@ window.onload = () => {
   const addBookBtn = document.querySelector('#add');
   addBookBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    const title = document.querySelector('#title').value;
-    const author = document.querySelector('#author').value;
-    const book = new Book(title, author);
-    book.add();
-    Book.displayBooks();
-    localStorage.setItem('books', JSON.stringify(Book.books));
+    const title = document.querySelector('#title');
+    const author = document.querySelector('#author');
+    if (title.value !== '' && author.value !== '') {
+      const book = new Book(title.value, author.value);
+      book.add();
+      title.value = '';
+      author.value = '';
+      Book.displayBooks();
+      localStorage.setItem('books', JSON.stringify(Book.books));
+      const successParagragh = document.querySelector('#add-book-success');
+      successParagragh.classList.toggle('d-none');
+      setTimeout(() => {
+        successParagragh.classList.toggle('d-none');
+      }, 1000);
+    }
   });
 
   if (localStorage.getItem('books') !== null) {
@@ -90,7 +99,7 @@ window.onload = () => {
     contactSection.classList.add('show');
     listLink.classList.remove('active');
     newLink.classList.remove('active');
-    contactLink.classList.add('active)');
+    contactLink.classList.add('active');
   });
 
   const time = document.querySelector('.time');
