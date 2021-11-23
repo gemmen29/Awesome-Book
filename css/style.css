@@ -1,3 +1,14 @@
 body {
   margin: 0 20px;
+  font-family: 'Asap', sans-serif;
+}
+
+.book:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.horizontal-line {
+  width: 25%;
+  height: 3px;
+  background-color: black;
 }
