@@ -4,5 +4,11 @@ body {
 }
 
 .book:nth-child(odd) {
-  background-color: gray;
+  background-color: #ddd;
+}
+
+.horizontal-line {
+  width:25%;
+  height: 3px;
+  background-color: black;
 }
