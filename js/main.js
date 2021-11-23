@@ -21,10 +21,8 @@ class Book {
     this.#bookDiv.innerHTML = '';
     if (Book.books) {
       Book.books.forEach((book, index) => {
-        const bookElement = `<p>${book.title}</p>
-    <p>${book.author}</p>
-    <button class="remove" id="${index}">Remove</button>
-    <hr>`;
+        const bookElement = `<div class="book d-flex justify-content-between p-2"><p>"${book.title}" by ${book.author}</p>
+    <button class="remove btn btn-danger" id="${index}">Remove</button></div>`;
         this.#bookDiv.innerHTML += bookElement;
       });
     }
