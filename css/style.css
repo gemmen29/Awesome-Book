@@ -12,3 +12,36 @@ body {
   height: 3px;
   background-color: black;
 }
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.nav-links:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.active {
+  color: blue;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+section {
+  margin-top: 80px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
