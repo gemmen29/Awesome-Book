@@ -32,9 +32,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@George_Magdy](https://twitter.com/georgtriple1)
 - LinkedIn: [@George_Magdy](https://www.linkedin.com/in/george-magdy-840/)
 
-**Chris Clothier**
-GitHub: [@CRClothier](https://github.com/crclothier)  
-LinkedIn: [Chris Clothier](https://www.linkedin.com/in/crclothier/)
+👤 **Chris Clothier**
+
+- GitHub: [@CRClothier](https://github.com/crclothier)  
+- LinkedIn: [Chris Clothier](https://www.linkedin.com/in/crclothier/)
 
 ## 🤝 Contributing
 
