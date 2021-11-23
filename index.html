@@ -19,18 +19,19 @@
     <nav class="d-flex justify-content-between align-items-center px-2 py-2 border border-3 border-dark">
       <h1 class="m-0">Awesome Books</h1>
       <div>
-        <a class="nav-links active" href="#">List</a>
-        <a class="nav-links" href="#">Add new</a>
-        <a class="nav-links" href="#">Contact</a>
+        <a id="list-link" class="nav-links active" href="#">List</a>
+        <a id="new-link" class="nav-links" href="#">Add new</a>
+        <a id="contact-link" class="nav-links" href="#">Contact</a>
       </div>
     </nav>
   </header>
-  <section class="books-list">
+  <div class="time"></div>
+  <section class="books-list show">
     <h2 class="text-center">All Awesome Books</h2>
     <div id="books" class="border border-3 border-dark text-center">
     </div>
   </section>
-  <section class="add-books d-none">
+  <section class="add-books">
     <h2 class="text-center">Add a new book</h2>
     <div class="d-flex justify-content-center">
       <form class="text-center w-50">
@@ -40,7 +41,7 @@
       </form>
     </div>
   </section>
-  <section class="contact d-none">
+  <section class="contact">
     <h2 class="text-center">Contact Information</h2>
     <p>
       Do have any questions or you just want to soy "Hello"? You can reach out to us! 
@@ -54,6 +55,7 @@
   <footer class="border border-3 border-dark p-2">
     <p class="m-0">Copyright &copy; all rights reserved 2021.</p>
   </footer>
+  <script src="https://moment.github.io/luxon/global/luxon.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>

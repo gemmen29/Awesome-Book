@@ -24,6 +24,10 @@ body {
   border-right: 1px solid black;
 }
 
+.show {
+  display: block;
+}
+
 .active {
   color: blue;
 }
@@ -36,7 +40,7 @@ header {
 }
 
 section {
-  margin-top: 80px;
+  display: none;
 }
 
 footer {
@@ -44,4 +48,9 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.time {
+  margin-top: 80px;
+  text-align: right;
 }

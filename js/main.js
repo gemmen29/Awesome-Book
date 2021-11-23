@@ -58,4 +58,43 @@ window.onload = () => {
   }
 
   Book.displayBooks();
+  const listLink = document.querySelector('#list-link');
+  const newLink = document.querySelector('#new-link');
+  const contactLink = document.querySelector('#contact-link');
+
+  const listSection = document.querySelector('.books-list');
+  const newSection = document.querySelector('.add-books');
+  const contactSection = document.querySelector('.contact');
+
+  listLink.addEventListener('click', () => {
+    listSection.classList.add('show');
+    newSection.classList.remove('show');
+    contactSection.classList.remove('show');
+    listLink.classList.add('active');
+    newLink.classList.remove('active');
+    contactLink.classList.remove('active)');
+  });
+
+  newLink.addEventListener('click', () => {
+    listSection.classList.remove('show');
+    newSection.classList.add('show');
+    contactSection.classList.remove('show');
+    listLink.classList.remove('active');
+    newLink.classList.add('active');
+    contactLink.classList.remove('active)');
+  });
+
+  contactLink.addEventListener('click', () => {
+    listSection.classList.remove('show');
+    newSection.classList.remove('show');
+    contactSection.classList.add('show');
+    listLink.classList.remove('active');
+    newLink.classList.remove('active');
+    contactLink.classList.add('active)');
+  });
+
+  const time = document.querySelector('.time');
+  const now = luxon.DateTime.now();
+  const date = luxon.DateTime.fromISO(now);
+  time.innerHTML = date.toLocaleString(luxon.DateTime.DATETIME_MED);
 };
