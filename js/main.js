@@ -94,7 +94,7 @@ window.onload = () => {
   });
 
   const time = document.querySelector('.time');
-  const now = luxon.DateTime.now();
-  const date = luxon.DateTime.fromISO(now);
-  time.innerHTML = date.toLocaleString(luxon.DateTime.DATETIME_MED);
+  const now = luxon.DateTime.now();// eslint-disable-line no-undef
+  const date = luxon.DateTime.fromISO(now);// eslint-disable-line no-undef
+  time.innerHTML = date.toLocaleString(luxon.DateTime.DATETIME_MED);// eslint-disable-line no-undef
 };
