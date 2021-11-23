@@ -15,20 +15,50 @@
 </head>
 
 <body>
-  <h1 class="text-center">All Awesome Books</h1>
-  <div id="books" class="border border-3 border-dark text-center">
-  </div>
-  <div class="d-flex justify-content-center py-3">
-    <div class="horizontal-line"></div>
-  </div>
-  <h2 class="text-center">Add a new book</h2>
-  <div class="d-flex justify-content-center">
-    <form class="text-center w-50">
-      <input class="my-2 form-control" type="text" name="title" id="title" placeholder="Title"><br>
-      <input class="my-2 form-control" type="text" name="author" id="author" placeholder="author"><br>
-      <button class="float-end btn btn-primary" type="submit" id="add">Add</button>
-    </form>
-  </div>
+  <header>
+    <nav class="d-flex justify-content-between align-items-center px-2 py-2 border border-3 border-dark">
+      <h1 class="m-0">Awesome Books</h1>
+      <div>
+        <a id="list-link" class="nav-links active" href="#">List</a>
+        <a id="new-link" class="nav-links" href="#">Add new</a>
+        <a id="contact-link" class="nav-links" href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <div class="time"></div>
+  <section class="books-list show">
+    <h2 class="text-center">All Awesome Books</h2>
+    <div id="books" class="border border-3 border-dark text-center">
+    </div>
+  </section>
+  <section class="add-books">
+    <h2 class="text-center">Add a new book</h2>
+    <div class="d-flex justify-content-center">
+      <form class="text-center w-50">
+        <input class="my-2 form-control" type="text" name="title" id="title" placeholder="Title"><br>
+        <input class="my-2 form-control" type="text" name="author" id="author" placeholder="author"><br>
+        <button class="float-end btn btn-primary" type="submit" id="add">Add</button>
+      </form>
+    </div>
+    <p id="add-book-success" class="text-center d-none">Book Added Successfully</p>
+  </section>
+  <section class="contact">
+    <h2 class="text-center">Contact Information</h2>
+    <div class="d-flex flex-column align-items-center mt-5">
+      <p>
+        Do have any questions or you just want to soy "Hello"?<br> You can reach out to us!
+      </p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number 0043586534422</li>
+        <li>Our address: Streetname 22, 84503 City Country </li>
+      </ul>
+    </div>
+  </section>
+  <footer class="border border-3 border-dark p-2">
+    <p class="m-0">Copyright &copy; all rights reserved 2021.</p>
+  </footer>
+  <script src="https://moment.github.io/luxon/global/luxon.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
