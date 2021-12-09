@@ -39,6 +39,10 @@ header {
   width: 99%;
 }
 
+nav {
+  height: 60px;
+}
+
 section {
   display: none;
 }

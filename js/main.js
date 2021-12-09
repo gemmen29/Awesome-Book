@@ -81,7 +81,7 @@ window.onload = () => {
     contactSection.classList.remove('show');
     listLink.classList.add('active');
     newLink.classList.remove('active');
-    contactLink.classList.remove('active)');
+    contactLink.classList.remove('active');
   });
 
   newLink.addEventListener('click', () => {
@@ -90,7 +90,7 @@ window.onload = () => {
     contactSection.classList.remove('show');
     listLink.classList.remove('active');
     newLink.classList.add('active');
-    contactLink.classList.remove('active)');
+    contactLink.classList.remove('active');
   });
 
   contactLink.addEventListener('click', () => {
